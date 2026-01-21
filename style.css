@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Common style for all sections */
+.box {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  animation: fadeIn 1.5s ease;
+}
+
+/* Different background & text colors */
+.name {
+  background-color: #7468be;
+  color: #5a0000;
+}
+
+.age {
+  background-color: #e3ae6d;
+  color: #7a3e00;
+}
+
+.role {
+  background-color: #8dd097;
+  color: #004b23;
+}
+
+.bio {
+  background-color: #75bac1;
+  color: #003049;
+}
+
+.skills {
+  background-color: #b7afe2;
+  color: #240046;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  font-weight: bold;
+}
+
+
