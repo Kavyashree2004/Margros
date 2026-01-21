@@ -1,54 +1,67 @@
-body {
+ {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
 }
 
-/* Common style for all sections */
-.box {
-  width: 60%;
-  margin: 20px auto;
+body {
+  background-color: #0f172a;
+  padding: 40px;
+}
+
+.title {
+  text-align: center;
+  color: #e5e7eb;
+  margin-bottom: 25px;
+}
+
+
+.section {
+  max-width: 500px;
+  margin: 15px auto;
   padding: 20px;
   text-align: center;
-  border-radius: 10px;
-  animation: fadeIn 1.5s ease;
+  border-radius: 8px;
+  animation: zoomIn 0.8s ease;
 }
 
-/* Different background & text colors */
+
+.section span {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+
 .name {
-  background-color: #7468be;
-  color: #5a0000;
+  background-color: #1d4ed8;
+  color: #ffffff;
 }
 
 .age {
-  background-color: #e3ae6d;
-  color: #7a3e00;
+  background-color: #059669;
+  color: #ecfdf5;
 }
 
 .role {
-  background-color: #8dd097;
-  color: #004b23;
+  background-color: #ca8a04;
+  color: #1c1917;
 }
 
 .bio {
-  background-color: #75bac1;
-  color: #003049;
+  background-color: #7c3aed;
+  color: #f5f3ff;
 }
 
 .skills {
-  background-color: #b7afe2;
-  color: #240046;
+  background-color: #dc2626;
+  color: #fff1f2;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
 
-li {
-  padding: 5px;
-  font-weight: bold;
-}
 
 
